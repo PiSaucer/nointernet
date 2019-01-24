@@ -1,0 +1,57 @@
+body {
+  font-family: roboto;
+  background-color:;
+}
+
+h1 {
+  color: #404042;
+  position:absolute;
+  top: 200px;
+  left: 500px;
+}
+.try {
+  position:absolute;
+  top: 260px;
+  left: 500px;
+}
+
+.error-code {
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15px;
+	position:absolute;
+	top: 375px;
+	left: 525px;
+}
+
+p {
+  color: #404042;
+}
+
+li {
+  color: #404042;
+}
+
+iframe:focus {
+    outline: none;
+}
+
+iframe[seamless] {
+    display: block;
+}
+
+iframe {
+	border:none;
+	position:absolute;
+	top: 0px;
+	left: -200px;
+}
+
+.error-code {
+    font-family: 'Source Code Pro';
+
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
